@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    color: #303030;
 }
 
 header {
@@ -33,7 +34,6 @@ header span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
 }
 
@@ -41,12 +41,11 @@ header span {
     /* Стили для текста в первой секции */
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 }
 
 
@@ -66,7 +65,6 @@ select {
     padding: 8.5px 0;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .section-title {
@@ -74,7 +72,6 @@ select {
     margin-bottom: 25px;
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
 }
 
 .frameworks-list {
@@ -83,7 +80,6 @@ select {
     padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .books-list {
@@ -91,14 +87,12 @@ select {
     padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .text-field {
@@ -136,7 +130,6 @@ table {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    color: #303030;
 }
 
 th,
@@ -145,7 +138,7 @@ td {
     border: 1px solid #95a1bb;
     width: 300px;
     /*height: 40px;*/
-    padding: 11.5px;
+    padding: 12px 15px;
     text-align: center;
 }
 
@@ -157,6 +150,7 @@ footer {
 
 .footer-link {
     /* Стили для футера */
+    padding: 26px 0;
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
